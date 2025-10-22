@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/Frontend-Freak/Films.git',
+  base: '/',
   plugins: [react()],
   server: {
     open: true,
